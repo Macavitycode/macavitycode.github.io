@@ -18,23 +18,35 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Macavitycode's site
+title: Shashank Rajiv Moghe
 email: macavitycode@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >-
+  I am a robotics enthusiast with an interest in drones.
+  I work with ROS, electronics and robotics in general.
+  I am based out of India.
+  
 root: /
 domain: macavitycode.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://macavitycode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  Macavitycode
+
+author: Macavitycode
 
 # Build settings
 theme: minima
+
+minima:
+  skin: dark-pink
+
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+  interests:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -44,8 +56,9 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
+exclude:
+  - source_this.sh
+  - README.md
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile

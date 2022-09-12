@@ -1,0 +1,31 @@
+name: Shashank Rajiv Moghe
+
+email1:
+  id: 'shashankrajivmoghe@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: '/assets/favicons/mail-white.png'
+
+email2:
+  id: 'macavitycode@gmail.com'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: '/assets/favicons/mail-white.png'
+
+twitter:
+  id: 'shashankrmoghe'
+  href: 'https://www.twitter.com/'
+  title: 'Twitter'
+  fa-icon: '/assets/favicons/twitter-white.png'
+
+github:
+  id: 'macavitycode'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: '/assets/favicons/github-white.png'
+
+linkedin:
+  id: 'Shashank-rajiv-moghe'
+  href: 'https://linkedin.com/in/'
+  title: 'LinkedIn'
+  fa-icon: '/assets/favicons/linkedin-white.png'

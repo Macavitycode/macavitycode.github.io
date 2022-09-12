@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.column-small {
+  float: left;
+  width: 33.33%;
+}
+
+.column-left {
+  float: left;
+  width: 50%;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.column-big {
+  float: left;
+  width: 66.66%;
+}
+
+$color-scheme-auto: false;
+$color-scheme-dark: true;
+@import "minima/skins/auto";
