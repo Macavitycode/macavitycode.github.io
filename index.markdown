@@ -4,3 +4,6 @@
 
 layout: home
 ---
+
+<link rel="stylesheet" href="{{ root_url }}/css/main.css">
+
