@@ -43,8 +43,16 @@ plugins:
   - jekyll-seo-tag
 
 collections:
+  
   projects:
     output: true
+    # order:
+    #   - Geotagging_with_drones.md
+    #   - Cone_following_with_ackermann_drive.md
+    #   - RHex_robot_work.md
+    #   - Robotics_lab_work.md
+    #   - SolarMobil_work.md
+
   interests:
     output: true
 
@@ -57,6 +65,7 @@ collections:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - _incomplete/
   - source_this.sh
   - README.md
 #   - .jekyll-cache/

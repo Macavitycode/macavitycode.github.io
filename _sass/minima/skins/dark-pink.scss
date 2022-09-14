@@ -25,6 +25,49 @@
   width: 66.66%;
 }
 
+div .profile-pic {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
 $color-scheme-auto: false;
 $color-scheme-dark: true;
 @import "minima/skins/auto";
+
+$brand-color: $dm-brand-color;
+$brand-color-light: $dm-brand-color-light;
+$brand-color-dark: $dm-brand-color-dark;
+
+$site-title-color: $dm-site-title-color;
+
+$pink-text-color: #D7A0C0;
+
+$text-color: $dm-text-color;
+$background-color: $dm-background-color;
+$code-background-color: $dm-code-background-color;
+
+// $text-color:             $pink-text-color;
+// $background-color:       $pink-text-color; 
+// $code-background-color:  $pink-text-color; 
+
+$all-links-color: #B782A7;
+
+$link-base-color: $dm-link-base-color;
+$link-visited-color: $dm-link-visited-color;
+$link-hover-color: $dm-link-hover-color;
+
+// $link-base-color: $all-links-color;
+// $link-visited-color: $all-links-color;
+// $link-hover-color: $all-links-color;
+
+$border-color-01: $dm-border-color-01;
+$border-color-02: $dm-border-color-02;
+$border-color-03: $dm-border-color-03;
+
+$table-text-color: $dm-table-text-color;
+$table-zebra-color: $dm-table-zebra-color;
+$table-header-bg-color: $dm-table-header-bg-color;
+$table-header-border: $dm-table-header-border;
+$table-border-color: $dm-table-border-color;
