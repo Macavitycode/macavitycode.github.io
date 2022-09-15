@@ -1,7 +1,7 @@
 ---
 layout: contact
-title: Contact Me
-permalink: /contactme/
+title: Contact
+permalink: /contact/
 ---
 
  - <a class="u-email" href="{{ site.data.author.email1.href }}{{ site.data.author.email1.id }}">

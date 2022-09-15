@@ -5,6 +5,8 @@ title:  "Cone Following with Ackermann Drive"
 
 The challenge is to get a cone following algorithm to be implemented using
 just a normal RGB camera.
+The competition this was made for is the same as [this]({{ '/_projects/SolarMobil_work.md' | relative_url }})
+and is explained further there.
 
 I used the linearity of the relation of area occupied on screen
 vs. the distance of the object.
