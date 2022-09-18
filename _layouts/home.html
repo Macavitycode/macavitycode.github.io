@@ -23,7 +23,6 @@ layout: default
   {% endif %}
 
   <h1>Robotics Projects<h1/>
-
   {%- if site.projects.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title }}</h2>
     <ul class="post-list">
@@ -39,10 +38,26 @@ layout: default
       {%- endfor -%}
     </ul>
   {%- endif -%}
+  
+  <h1>Publications<h1/>
+    {%- if site.publications.size > 0 -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <ul class="post-list">
+        {%- for publication in site.publications -%}
+        <li>
+          <h3>
+            <a class="post-link" href="{{ publication.url | relative_url }}">
+              {{ publication.title | escape }}
+            </a>
+          </h3>
+          <p>{{ publication.excerpt }}<p/>
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
 
 
   <h1>Interests and Smaller Projects<h1/>
-
   {%- if site.interests.size > 0 -%}
       {%- for interest in site.interests -%}
       {% assign remainder = forloop.index | modulo:2 %}
@@ -66,7 +81,6 @@ layout: default
         {% elsif remainder == 0 %}
         </div>
         {% endif %}
-
       {%- endfor -%}
   {%- endif -%}
 
