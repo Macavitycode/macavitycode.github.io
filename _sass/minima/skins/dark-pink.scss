@@ -5,6 +5,16 @@ p, body
   text-align: justify;
 }
 
+.column-huge {
+  float: left;
+  width: 80%;
+}
+
+.column-tiny {
+  float: left;
+  width: 20%;
+}
+
 .column-small {
   float: left;
   width: 33.33%;
@@ -31,7 +41,20 @@ p, body
   width: 66.66%;
 }
 
+// Doesnt work :(
+div .p5Canvas {
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
 div .profile-pic {
+  position: absolute;
   padding-top: 20px;
   padding-right: 20px;
   padding-bottom: 20px;

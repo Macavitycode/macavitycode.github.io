@@ -22,40 +22,45 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-  <h1>Robotics Projects<h1/>
-  {%- if site.projects.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    <ul class="post-list">
-      {%- for project in site.projects -%}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ project.url | relative_url }}">
-            {{ project.title | escape }}
-          </a>
-        </h3>
-        <p>{{ project.excerpt }}<p/>
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
-  
-  <h1>Publications<h1/>
-    {%- if site.publications.size > 0 -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-      <ul class="post-list">
-        {%- for publication in site.publications -%}
-        <li>
-          <h3>
-            <a class="post-link" href="{{ publication.url | relative_url }}">
-              {{ publication.title | escape }}
-            </a>
-          </h3>
-          <p>{{ publication.excerpt }}<p/>
-        </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
-
+  <div class="row">
+    <div class="column-huge">
+      <h1>Robotics Projects<h1/>
+      {%- if site.projects.size > 0 -%}
+        <h2 class="post-list-heading">{{ page.list_title }}</h2>
+        <ul class="post-list">
+          {%- for project in site.projects -%}
+          <li>
+            <h3>
+              <a class="post-link" href="{{ project.url | relative_url }}">
+                {{ project.title | escape }}
+              </a>
+            </h3>
+            <p>{{ project.excerpt }}<p/>
+          </li>
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+      
+      <h1>Publications<h1/>
+        {%- if site.publications.size > 0 -%}
+          <h2 class="post-list-heading">{{ page.list_title }}</h2>
+          <ul class="post-list">
+            {%- for publication in site.publications -%}
+            <li>
+              <h3>
+                <a class="post-link" href="{{ publication.url | relative_url }}">
+                  {{ publication.title | escape }}
+                </a>
+              </h3>
+              <p>{{ publication.excerpt }}<p/>
+            </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+    </div>
+    
+    <div class="column-tiny"></div>
+  </div>
 
   <h1>Interests and Smaller Projects<h1/>
   {%- if site.interests.size > 0 -%}
@@ -85,7 +90,18 @@ layout: default
   {%- endif -%}
 
 
-  <h1>Other Posts<h1/>
+  <h1>Other Posts and Animations<h1/>
+    {%- if site.anims.size > 0 -%}
+    {%- for anim in site.anims -%}
+
+    <h3>
+      <a class="post-link" href="{{ anim.url | relative_url }}">
+        {{ anim.title | escape }}
+      </a>
+    </h3>
+
+    {%- endfor -%}
+  {%- endif -%}
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
