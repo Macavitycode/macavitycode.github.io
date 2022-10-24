@@ -1,6 +1,6 @@
 ---
 layout: anim
-title:  "test anim"
+title:  "Simple Animation test"
 script: "/assets/js/test.js"
 ---
 

@@ -1,7 +1,7 @@
 function setup() {
   cc_s(0.5);
 }
-  
+
 function windowResized() {
   cc_s(0.5);
 }
