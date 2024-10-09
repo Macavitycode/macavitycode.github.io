@@ -6,14 +6,56 @@
     <description>Recent content in Posts on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2024 18:14:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2024 22:05:18 +0200</lastBuildDate>
     <atom:link href="https://macavitycode.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://macavitycode.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 09 Oct 2024 18:14:46 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;This is a new post!&lt;/p&gt;</description>
+      <title>Other Smaller Projects</title>
+      <link>https://macavitycode.github.io/posts/other_smaller_projects/</link>
+      <pubDate>Wed, 09 Oct 2024 22:05:18 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/other_smaller_projects/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note Taking</title>
+      <link>https://macavitycode.github.io/posts/note_taking/</link>
+      <pubDate>Wed, 25 Sep 2024 23:17:40 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/note_taking/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Soft Robotics Grippers</title>
+      <link>https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/</link>
+      <pubDate>Sun, 03 Sep 2023 18:14:46 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drone Simulations</title>
+      <link>https://macavitycode.github.io/posts/drone_simulations/</link>
+      <pubDate>Sat, 15 Jul 2023 22:03:23 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/drone_simulations/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SolarMobil</title>
+      <link>https://macavitycode.github.io/posts/solar_mobil/</link>
+      <pubDate>Wed, 25 May 2022 22:22:20 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/solar_mobil/</guid>
+      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.solarmobilmanipal./&#34;&gt;SolarMobil&lt;/a&gt; is a student project under&#xA;Manipal Institute of Technology which focuses on building and manufacturing&#xA;an solar powered electric car for &lt;a href=&#34;https://esvc.in/&#34;&gt;ESVC&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;ESVC is Asia&amp;rsquo;s biggest solar car event, Except for the motors and wheels (which&#xA;are proprietary) they build everything else from scratch.&#xA;The sheer amount of design work that goes into the project is phenomenal.&#xA;I was a member of the automation subsystem, meaning my work was focused around&#xA;getting the car to autonomously navigate through one of the challenges in the&#xA;competition.&#xA;The challenge was to navigate the car completely autonomously through a course&#xA;marked by having small orange cones on both sides.&#xA;The design limitations on it were that the coded stack needed to be cheap,&#xA;easy to use and understand and for initial setup use &lt;strong&gt;only a RGB camera&lt;/strong&gt;.&#xA;Of course, the stack needed to integrate with the rest of the car in terms of&#xA;mechanical and electronics design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ackermann Drive Simulation</title>
+      <link>https://macavitycode.github.io/posts/ackerman_simulation/</link>
+      <pubDate>Mon, 28 Feb 2022 22:11:40 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/ackerman_simulation/</guid>
+      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as (TODO Link SolarMobil work)&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stance Classification</title>
+      <link>https://macavitycode.github.io/posts/stance_classification/</link>
+      <pubDate>Fri, 15 Jan 2021 22:02:40 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/stance_classification/</guid>
+      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
