@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shashank Rajiv Moghe</title>
-    <link>http://localhost:1313/</link>
+    <link>https://macavitycode.github.io/</link>
     <description>Recent content on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Oct 2024 18:14:46 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://macavitycode.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://macavitycode.github.io/about/</link>
       <pubDate>Wed, 09 Oct 2024 18:14:46 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://macavitycode.github.io/about/</guid>
       <description>&lt;p&gt;Hi! This is the about page&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://macavitycode.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 09 Oct 2024 18:14:46 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://macavitycode.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a new post!&lt;/p&gt;</description>
     </item>
   </channel>

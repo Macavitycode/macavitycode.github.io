@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Shashank Rajiv Moghe</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://macavitycode.github.io/posts/</link>
     <description>Recent content in Posts on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Oct 2024 18:14:46 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://macavitycode.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://macavitycode.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 09 Oct 2024 18:14:46 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://macavitycode.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;This is a new post!&lt;/p&gt;</description>
     </item>
   </channel>
