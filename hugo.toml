@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Shashank Rajiv Moghe'
+theme = 'ananke'
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/Macavitycode"
+
+[[params.ananke_socials]]
+name = "linkedin"
+url = "https://in.linkedin.com/in/shashank-rajiv-moghe"
+
+[params]
+text_color = ""
+author = ""
+favicon = ""
+site_logo = ""
+disable_share = true
+
+Paginate = 1                 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
