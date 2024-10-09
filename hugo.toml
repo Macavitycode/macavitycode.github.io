@@ -16,9 +16,9 @@ url = "https://in.linkedin.com/in/shashank-rajiv-moghe"
 
 [params]
 text_color = ""
-author = ""
+author = "Shashank Rajiv Moghe"
 favicon = ""
-site_logo = ""
+site_logo = "githubProfile.png"
 disable_share = true
 
 Paginate = 1                 # this is set low for demonstrating with dummy content. Set to a higher number
