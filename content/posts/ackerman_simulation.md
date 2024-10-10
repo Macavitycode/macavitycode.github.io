@@ -14,7 +14,7 @@ The scikit-spatial library is a huge help as it simplifies a lot of the involved
 
 A brief overview of the steps in the algorithm:
 
-- Preprocess image to get contours
+- Pre-process image to get contours
 - Filter contours to get useful data
 - Fit rectangle on contour, break up badly shaped contours
 - Get 3D relation from scaling areas of rectangles

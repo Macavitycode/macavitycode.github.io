@@ -6,7 +6,13 @@
     
     <title>Soft Robotics Grippers | Shashank Rajiv Moghe</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="TODO">
+    <meta name="description" content="Soft robotics was a course I took taught by Dr. Jeane D`Souza
+in the seventh semester of my college. The course itself proved to be mostly
+theory oriented, and the reason for that became apparent very soon. It&rsquo;s a
+completely foreign paradigm to someone studying conventional robotics - working
+with rigid structures, deterministic frames and kinematics around those - soft
+robotics seems like an weird pseudoscience, requiring feedback control and real
+world testing even for prototypes.">
     <meta name="generator" content="Hugo 0.135.0">
     
     
@@ -41,7 +47,7 @@
     <meta property="og:url" content="https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/">
   <meta property="og:site_name" content="Shashank Rajiv Moghe">
   <meta property="og:title" content="Soft Robotics Grippers">
-  <meta property="og:description" content="TODO">
+  <meta property="og:description" content="Soft robotics was a course I took taught by Dr. Jeane D`Souza in the seventh semester of my college. The course itself proved to be mostly theory oriented, and the reason for that became apparent very soon. It’s a completely foreign paradigm to someone studying conventional robotics - working with rigid structures, deterministic frames and kinematics around those - soft robotics seems like an weird pseudoscience, requiring feedback control and real world testing even for prototypes.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -49,13 +55,13 @@
     <meta property="article:modified_time" content="2023-09-03T18:14:46+02:00">
 
   <meta itemprop="name" content="Soft Robotics Grippers">
-  <meta itemprop="description" content="TODO">
+  <meta itemprop="description" content="Soft robotics was a course I took taught by Dr. Jeane D`Souza in the seventh semester of my college. The course itself proved to be mostly theory oriented, and the reason for that became apparent very soon. It’s a completely foreign paradigm to someone studying conventional robotics - working with rigid structures, deterministic frames and kinematics around those - soft robotics seems like an weird pseudoscience, requiring feedback control and real world testing even for prototypes.">
   <meta itemprop="datePublished" content="2023-09-03T18:14:46+02:00">
   <meta itemprop="dateModified" content="2023-09-03T18:14:46+02:00">
-  <meta itemprop="wordCount" content="1">
+  <meta itemprop="wordCount" content="378">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Soft Robotics Grippers">
-  <meta name="twitter:description" content="TODO">
+  <meta name="twitter:description" content="Soft robotics was a course I took taught by Dr. Jeane D`Souza in the seventh semester of my college. The course itself proved to be mostly theory oriented, and the reason for that became apparent very soon. It’s a completely foreign paradigm to someone studying conventional robotics - working with rigid structures, deterministic frames and kinematics around those - soft robotics seems like an weird pseudoscience, requiring feedback control and real world testing even for prototypes.">
 
 	
   </head>
@@ -66,8 +72,9 @@
    
   
 
-  <header>
-    <div class="bg-black">
+  
+  <header class="cover bg-top" style="background-image: url('https://macavitycode.github.io/featuredImages/soft-robotics.png');">
+    <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -136,6 +143,12 @@
   </div>
 </nav>
 
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Soft Robotics Grippers</div>
+          
+        
+      </div>
     </div>
   </header>
 
@@ -176,7 +189,47 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>TODO</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Soft robotics was a course I took taught by <a href="https://in.linkedin.com/in/jeane-d-souza-2b267119">Dr. Jeane D`Souza</a>
+in the seventh semester of my college. The course itself proved to be mostly
+theory oriented, and the reason for that became apparent very soon. It&rsquo;s a
+completely foreign paradigm to someone studying conventional robotics - working
+with rigid structures, deterministic frames and kinematics around those - soft
+robotics seems like an weird pseudoscience, requiring feedback control and real
+world testing even for prototypes.</p>
+<p>There were very few simulators that would help simulate these deformable
+systems, and a precious few which were accessible to college students. My
+requirements for a simulator (or any software for that matter) for my personal
+use are that they should be (a) Free and Open Source and (b) have a reasonably
+supportive community.
+<a href="https://www.mathworks.com/products/matlab.html">MathWorks&rsquo; MatLAB</a>
+had <a href="https://nl.mathworks.com/company/technical-articles/creating-sorosim-a-matlab-toolbox-for-soft-robotics-modeling-and-simulation.html">SoRoSim</a>,
+which I would rather not use because of the proprietary nature (I didn&rsquo;t check
+if it worked with <a href="https://octave.org/">GNU Octave</a> though).
+<a href="https://www.comsol.com/">COMSOL</a> and <a href="https://www.3ds.com/products/simulia/abaqus">DassaultSystemes&rsquo; Abaqus</a>,
+both which were recommended to me by some professors, were no good for me,
+as they were not only proprietary, but expensive too.</p>
+<p>This led me to the <a href="https://www.sofa-framework.org/">SOFA-Framework</a> which fit
+my requirements perfectly. I spent a few weeks learning SOFA and its quirks,
+and copied the basic implementation of a pneunet. I was able to simulate a
+simple, well functioning (and most importantly stable) pneunet which could
+show you the reaction to different pressures applied to the deformable system.
+You can checkout the docker container I used <a href="https://github.com/Macavitycode/docker-sofa">here</a>.</p>
+<p><img src="/images/soft-robotics-1.png" alt="Pneunet image 1">
+<img src="/images/soft-robotics-2.png" alt="Pneunet image 2">
+<img src="/images/soft-robotics-3.png" alt="Pneunet image 3"></p>
+<p>With this implemented I asked my professor for any <em>quick</em> projects I could
+work on to understand the system better, and she gave gave me one.</p>
+<p>I worked on setting up the basics of a soft gripper using <a href="https://ieeexplore.ieee.org/document/8788588/">LSOVAs</a>,
+and then worked on integrating more components into this to make it a gripper.
+This turned into a <em>long</em> and ongoing topic of research at the college,
+led by more interested students now.
+I however can share the first implementation of LSOVAs in SOFA here.</p>
+<p><img src="/images/soft-robotics-4.png" alt="Lsova image 1">
+<img src="/images/soft-robotics-5.png" alt="Lsova image 2"></p>
+<p>While in total this is not much &lsquo;work&rsquo;, I learnt a lot and started a new topic
+of research, and for that, I&rsquo;m quite happy.
+I am intrigued greatly by soft robotics as a concept, and am looking to work on
+this more in the future.</p>
 <ul class="pa0">
   
 </ul>

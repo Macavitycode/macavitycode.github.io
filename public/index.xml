@@ -6,35 +6,21 @@
     <description>Recent content on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2024 22:05:18 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 03 Sep 2023 18:14:46 +0200</lastBuildDate>
     <atom:link href="https://macavitycode.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Other Smaller Projects</title>
-      <link>https://macavitycode.github.io/posts/other_smaller_projects/</link>
-      <pubDate>Wed, 09 Oct 2024 22:05:18 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/other_smaller_projects/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Note Taking</title>
-      <link>https://macavitycode.github.io/posts/note_taking/</link>
-      <pubDate>Wed, 25 Sep 2024 23:17:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/note_taking/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Soft Robotics Grippers</title>
       <link>https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/</link>
       <pubDate>Sun, 03 Sep 2023 18:14:46 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+      <description>&lt;p&gt;Soft robotics was a course I took taught by &lt;a href=&#34;https://in.linkedin.com/in/jeane-d-souza-2b267119&#34;&gt;Dr. Jeane D`Souza&lt;/a&gt;&#xA;in the seventh semester of my college. The course itself proved to be mostly&#xA;theory oriented, and the reason for that became apparent very soon. It&amp;rsquo;s a&#xA;completely foreign paradigm to someone studying conventional robotics - working&#xA;with rigid structures, deterministic frames and kinematics around those - soft&#xA;robotics seems like an weird pseudoscience, requiring feedback control and real&#xA;world testing even for prototypes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Drone Simulations</title>
       <link>https://macavitycode.github.io/posts/drone_simulations/</link>
       <pubDate>Fri, 15 Jul 2022 22:03:23 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/drone_simulations/</guid>
-      <description>&lt;p&gt;Druing my Bachelors in Mechatronics, at an event was hosted by &lt;a href=&#34;https://in.linkedin.com/in/jeane-d-souza-2b267119&#34;&gt;Dr. Jeane D`Souza&lt;/a&gt;&#xA;on robotics developments in India, I met &lt;a href=&#34;https://in.linkedin.com/in/kvlikhin&#34;&gt;Likhin KV&lt;/a&gt;,&#xA;a founder at &lt;a href=&#34;https://www.haveliuavs.com/&#34;&gt;Haveli UAVs&lt;/a&gt;.&#xA;Haveli UAVs was a startup working on drones in agriculture.&#xA;I really enjoyed talking to Likhin, and apparently so did he,&#xA;as he offered me an internship to work with them to explore my interests.&lt;/p&gt;&#xA;&lt;p&gt;The problem statement that was to make a roadmap (and implement as much of it&#xA;as possible) for the autonomous navigation of drones in GPS-denied outdoor&#xA;situations. This was an interesting problem statement because outdoor drone&#xA;navigation is essentially a solved problem, provided you use some form of GPS.&#xA;This would not be feasible for this case because the locations at which they&#xA;planned to use the drones had very sparse GPS coverage, and they didnt want to&#xA;rely on it more than necessary (this was before NavIC solved this problem).&#xA;This got me started on simulations with drones and working with a large&#xA;suite of software and hardware archetectures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;During my Bachelors in Mechatronics, at an event was hosted by my department&#xA;on robotics developments in India, I met &lt;a href=&#34;https://in.linkedin.com/in/kvlikhin&#34;&gt;Likhin KV&lt;/a&gt;,&#xA;a founder at &lt;a href=&#34;https://www.haveliuavs.com/&#34;&gt;Haveli UAVs&lt;/a&gt;.&#xA;Haveli UAVs was a startup working on drones in agriculture.&#xA;I really enjoyed talking to Likhin, and apparently so did he,&#xA;as he offered me an internship to work with them to explore my interests.&lt;/p&gt;&#xA;&lt;p&gt;The problem statement was to make a roadmap (and implement as much of it&#xA;as possible) for the autonomous navigation of drones in GPS-denied outdoor&#xA;situations. This was an interesting problem statement because outdoor drone&#xA;navigation is essentially a solved problem, provided you use some form of GPS.&#xA;This would not be feasible for this case because the locations at which they&#xA;planned to use the drones had very sparse GPS coverage, and they didn&amp;rsquo;t want to&#xA;rely on it more than necessary (this was before NavIC solved this problem).&#xA;This got me started on simulations with drones and working with a large&#xA;suite of software and hardware architectures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SolarMobil</title>
@@ -55,7 +41,7 @@
       <link>https://macavitycode.github.io/posts/stance_classification/</link>
       <pubDate>Fri, 15 Jan 2021 22:02:40 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/stance_classification/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+      <description>&lt;p&gt;In my second year of Bachelors in Mechatronics, I got very interested in AI.&#xA;The progress in AI has been extremely quick, and the extension of the field&#xA;to robotics is inevitable. I with a group of friends participated in a&#xA;competition outside the college&amp;rsquo;s purview, called the&#xA;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9222464/proceeding&#34;&gt;IEEE BigMM Data Challenge (2020)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As a team we were all first and second years, who with considerable effort&#xA;had managed to teach ourselves the basics of python and machine learning.&#xA;The problem statement given was to do a stance classification based on tweets&#xA;in multiple categories, with no other outside information. We came second in&#xA;the overall challenge, and IEEE graciously provided us the opportunity to share&#xA;our research work in the journal (&lt;a href=&#34;https://ieeexplore.ieee.org/document/9232641&#34;&gt;link&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
