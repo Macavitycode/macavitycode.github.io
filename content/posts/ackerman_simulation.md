@@ -1,12 +1,13 @@
 ---
 title: 'Ackermann Drive Simulation'
 date: 2022-02-28T22:11:40+02:00
+featured_image: '/featuredImages/cone-follower.png'
 ---
 
 Note: This writeup was copied from my old website, which no is longer functional.
 
 The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.
-The competition this was made for is the same as (TODO Link SolarMobil work)
+The competition this was made for is the same as [SolarMobil]({{< ref "/posts/solar_mobil.md" >}}).
 I used the linearity of the relation of area occupied on screen vs. the distance of the object.
 I get a representation of the distance here rather than the actual physical distance with this method.
 The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.

@@ -32,9 +32,9 @@
     <item>
       <title>Drone Simulations</title>
       <link>https://macavitycode.github.io/posts/drone_simulations/</link>
-      <pubDate>Sat, 15 Jul 2023 22:03:23 +0200</pubDate>
+      <pubDate>Fri, 15 Jul 2022 22:03:23 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/drone_simulations/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;</description>
+      <description>&lt;p&gt;Druing my Bachelors in Mechatronics, at an event was hosted by &lt;a href=&#34;https://in.linkedin.com/in/jeane-d-souza-2b267119&#34;&gt;Dr. Jeane D`Souza&lt;/a&gt;&#xA;on robotics developments in India, I met &lt;a href=&#34;https://in.linkedin.com/in/kvlikhin&#34;&gt;Likhin KV&lt;/a&gt;,&#xA;a founder at &lt;a href=&#34;https://www.haveliuavs.com/&#34;&gt;Haveli UAVs&lt;/a&gt;.&#xA;Haveli UAVs was a startup working on drones in agriculture.&#xA;I really enjoyed talking to Likhin, and apparently so did he,&#xA;as he offered me an internship to work with them to explore my interests.&lt;/p&gt;&#xA;&lt;p&gt;The problem statement that was to make a roadmap (and implement as much of it&#xA;as possible) for the autonomous navigation of drones in GPS-denied outdoor&#xA;situations. This was an interesting problem statement because outdoor drone&#xA;navigation is essentially a solved problem, provided you use some form of GPS.&#xA;This would not be feasible for this case because the locations at which they&#xA;planned to use the drones had very sparse GPS coverage, and they didnt want to&#xA;rely on it more than necessary (this was before NavIC solved this problem).&#xA;This got me started on simulations with drones and working with a large&#xA;suite of software and hardware archetectures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SolarMobil</title>
@@ -48,7 +48,7 @@
       <link>https://macavitycode.github.io/posts/ackerman_simulation/</link>
       <pubDate>Mon, 28 Feb 2022 22:11:40 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/ackerman_simulation/</guid>
-      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as (TODO Link SolarMobil work)&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as &lt;a href=&#34;https://macavitycode.github.io/posts/solar_mobil/&#34;&gt;SolarMobil&lt;/a&gt;.&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stance Classification</title>

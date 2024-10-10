@@ -1,6 +1,11 @@
 # A quick Hugo site for all my projects
 
+This site is a work in progress
+
+## Notes to self
+
 Development notes: Use choco to install hugo, run it with `hugo server`
+featured image resolution: 256x144.
 
 ## Credits
 
