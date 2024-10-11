@@ -5,7 +5,7 @@ featured_image: 'featuredImages/soft-robotics.png'
 ---
 
 Soft robotics was a course I took taught by [Dr. Jeane D`Souza](https://in.linkedin.com/in/jeane-d-souza-2b267119)
-in the seventh semester of my college. The course itself proved to be mostly
+in my seventh semester of my college. The course itself proved to be mostly
 theory oriented, and the reason for that became apparent very soon. It's a
 completely foreign paradigm to someone studying conventional robotics - working
 with rigid structures, deterministic frames and kinematics around those - soft

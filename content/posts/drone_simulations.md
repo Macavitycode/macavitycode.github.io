@@ -4,8 +4,8 @@ date: 2022-07-15T22:03:23+02:00
 featured_image: '/featuredImages/drone-simulation.png'
 ---
 
-During my Bachelors in Mechatronics, at an event was hosted by my department
-on robotics developments in India, I met [Likhin KV](https://in.linkedin.com/in/kvlikhin),
+During my Bachelors in Mechatronics, at an event on robotics developments in India,
+I met [Likhin KV](https://in.linkedin.com/in/kvlikhin),
 a founder at [Haveli UAVs](https://www.haveliuavs.com/).
 Haveli UAVs was a startup working on drones in agriculture.
 I really enjoyed talking to Likhin, and apparently so did he,
