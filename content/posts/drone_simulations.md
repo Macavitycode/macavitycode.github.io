@@ -37,9 +37,6 @@ geotaging of images, basic image segmentation, simple monocular SLAM
 ([Direct Sparse Odometry (DSO)](https://github.com/JakobEngel/dso)).
 DSO needed some modifications to work with the system we had.
 Once we got it working, the algorithm produced fairly noisy point clouds.
-This however was still good enough to implement a basic version of the
-A\* navigation, with generous margins for avoiding the edges.
-This also required a quick ToF single point LiDAR for ground detection.
 
 ![Dso Map](/images/dso-maps.png)
 

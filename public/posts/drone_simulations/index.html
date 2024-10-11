@@ -68,7 +68,7 @@ The problem statement was to make a roadmap (and implement as much of it as poss
 The problem statement was to make a roadmap (and implement as much of it as possible) for the autonomous navigation of drones in GPS-denied outdoor situations. This was an interesting problem statement because outdoor drone navigation is essentially a solved problem, provided you use some form of GPS. This would not be feasible for this case because the locations at which they planned to use the drones had very sparse GPS coverage, and they didn’t want to rely on it more than necessary (this was before NavIC solved this problem). This got me started on simulations with drones and working with a large suite of software and hardware architectures.">
   <meta itemprop="datePublished" content="2022-07-15T22:03:23+02:00">
   <meta itemprop="dateModified" content="2022-07-15T22:03:23+02:00">
-  <meta itemprop="wordCount" content="346">
+  <meta itemprop="wordCount" content="312">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Drone Simulations">
   <meta name="twitter:description" content="During my Bachelors in Mechatronics, at an event on robotics developments in India, I met Likhin KV, a founder at Haveli UAVs. Haveli UAVs was a startup working on drones in agriculture. I really enjoyed talking to Likhin, and apparently so did he, as he offered me an internship to work with them to explore my interests.
@@ -229,10 +229,7 @@ This was the SITL base for our entire system, using</p>
 geotaging of images, basic image segmentation, simple monocular SLAM
 (<a href="https://github.com/JakobEngel/dso">Direct Sparse Odometry (DSO)</a>).
 DSO needed some modifications to work with the system we had.
-Once we got it working, the algorithm produced fairly noisy point clouds.
-This however was still good enough to implement a basic version of the
-A* navigation, with generous margins for avoiding the edges.
-This also required a quick ToF single point LiDAR for ground detection.</p>
+Once we got it working, the algorithm produced fairly noisy point clouds.</p>
 <p><img src="/images/dso-maps.png" alt="Dso Map"></p>
 <p>I recently tried implementing a RL based drone controller within Gazebo, starting with
 the models for the drones and propellers using <a href="https://openscad.org/">OpenSCAD</a>,
