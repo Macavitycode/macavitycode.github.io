@@ -2,6 +2,8 @@
 title: 'Soft Robotics Grippers'
 date: 2023-09-03T18:14:46+02:00
 featured_image: 'featuredImages/soft-robotics.png'
+tags: ['Robotics']
+featured: true
 ---
 
 Soft robotics was a course I took taught by [Dr. Jeane D`Souza](https://in.linkedin.com/in/jeane-d-souza-2b267119)

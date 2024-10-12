@@ -2,6 +2,7 @@
 title: 'SolarMobil'
 date: 2022-05-25T22:22:20+02:00
 featured_image: '/featuredImages/solar-mobil.png'
+tags: ['Robotics', 'Old']
 ---
 
 Note: This writeup was copied from my old website, which no is longer functional.

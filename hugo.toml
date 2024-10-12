@@ -24,3 +24,6 @@ disable_share = true
 Paginate = 1                 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+
+[taxonomies]
+   tag = "tags"

@@ -62,13 +62,15 @@ The problem statement was to make a roadmap (and implement as much of it as poss
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2022-07-15T22:03:23+02:00">
     <meta property="article:modified_time" content="2022-07-15T22:03:23+02:00">
+    <meta property="article:tag" content="Robotics">
 
   <meta itemprop="name" content="Drone Simulations">
   <meta itemprop="description" content="During my Bachelors in Mechatronics, at an event on robotics developments in India, I met Likhin KV, a founder at Haveli UAVs. Haveli UAVs was a startup working on drones in agriculture. I really enjoyed talking to Likhin, and apparently so did he, as he offered me an internship to work with them to explore my interests.
 The problem statement was to make a roadmap (and implement as much of it as possible) for the autonomous navigation of drones in GPS-denied outdoor situations. This was an interesting problem statement because outdoor drone navigation is essentially a solved problem, provided you use some form of GPS. This would not be feasible for this case because the locations at which they planned to use the drones had very sparse GPS coverage, and they didn’t want to rely on it more than necessary (this was before NavIC solved this problem). This got me started on simulations with drones and working with a large suite of software and hardware architectures.">
   <meta itemprop="datePublished" content="2022-07-15T22:03:23+02:00">
   <meta itemprop="dateModified" content="2022-07-15T22:03:23+02:00">
-  <meta itemprop="wordCount" content="312">
+  <meta itemprop="wordCount" content="352">
+  <meta itemprop="keywords" content="Robotics">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Drone Simulations">
   <meta name="twitter:description" content="During my Bachelors in Mechatronics, at an event on robotics developments in India, I met Likhin KV, a founder at Haveli UAVs. Haveli UAVs was a startup working on drones in agriculture. I really enjoyed talking to Likhin, and apparently so did he, as he offered me an internship to work with them to explore my interests.
@@ -200,7 +202,7 @@ The problem statement was to make a roadmap (and implement as much of it as poss
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>During my Bachelors in Mechatronics, at an event on robotics developments in India,
+    <div class="nested-copy-line-height lh-copy tj serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>During my Bachelors in Mechatronics, at an event on robotics developments in India,
 I met <a href="https://in.linkedin.com/in/kvlikhin">Likhin KV</a>,
 a founder at <a href="https://www.haveliuavs.com/">Haveli UAVs</a>.
 Haveli UAVs was a startup working on drones in agriculture.
@@ -228,8 +230,12 @@ This was the SITL base for our entire system, using</p>
 <p>This enabled me to implement livestreaming through the companion computer,
 geotaging of images, basic image segmentation, simple monocular SLAM
 (<a href="https://github.com/JakobEngel/dso">Direct Sparse Odometry (DSO)</a>).
-DSO needed some modifications to work with the system we had.
-Once we got it working, the algorithm produced fairly noisy point clouds.</p>
+DSO needed some modifications to work with the system we had (I worked with
+<a href="https://www.linkedin.com/in/rikin-ramachandran-5992851bb/">Rikin Ramachandran</a> for this).
+Once we got it working, the algorithm produced fairly noisy point clouds.
+This however was still good enough to implement a basic version of the
+A* navigation, requiring a ToF single point LiDAR for ground detection.
+It was a ready-to-use outdoor, GPS-denied, monocular SLAM system!</p>
 <p><img src="/images/dso-maps.png" alt="Dso Map"></p>
 <p>I recently tried implementing a RL based drone controller within Gazebo, starting with
 the models for the drones and propellers using <a href="https://openscad.org/">OpenSCAD</a>,
@@ -238,6 +244,10 @@ create my own drone framework. This led to a lot of
 pain and frustration and barely worked, so the corpse of the setup is kept
 <a href="https://github.com/Macavitycode/HumbleGazeboQuad/tree/main">here</a>.</p>
 <ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/robotics/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Robotics</a>
+   </li>
   
 </ul>
 <div class="mt6 instapaper_ignoref">
@@ -250,6 +260,21 @@ pain and frustration and barely worked, so the corpse of the setup is kept
 
 
 
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/solar_mobil/">SolarMobil</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/ackerman_simulation/">Ackermann Drive Simulation</a>
+        </li>
+	    
+    </ul>
+</div>
 
 </aside>
 

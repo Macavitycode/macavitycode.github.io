@@ -2,6 +2,7 @@
 title: 'Stance Classification'
 date: 2021-01-15T22:02:40+02:00
 featured_image: '/featuredImages/stance-classification.png'
+tags: ['AI', 'Old']
 ---
 
 In my second year of Bachelors in Mechatronics, I got very interested in AI.

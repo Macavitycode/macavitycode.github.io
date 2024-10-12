@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shashank Rajiv Moghe</title>
-    <link>https://macavitycode.github.io/</link>
-    <description>Recent content on Shashank Rajiv Moghe</description>
+    <title>Robotics on Shashank Rajiv Moghe</title>
+    <link>https://macavitycode.github.io/tags/robotics/</link>
+    <description>Recent content in Robotics on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2024 23:17:40 +0200</lastBuildDate>
-    <atom:link href="https://macavitycode.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>On Note Taking</title>
-      <link>https://macavitycode.github.io/posts/note_taking/</link>
-      <pubDate>Wed, 25 Sep 2024 23:17:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/note_taking/</guid>
-      <description>&lt;p&gt;Having started a Masters&amp;rsquo; course recently, I found myself once again in need&#xA;of a good note taking application. As a student I&amp;rsquo;d gone through a couple of&#xA;options before -  &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, using manually set up sync&#xA;across my devices - but I was looking to change somethings.&#xA;I jotted down some requirements for a note taking app, namely&#xA;that it needed to (a) work with markdown files (b) be free and open source.&#xA;I don&amp;rsquo;t mind having to pay for a piece of software I use as long as I can align&#xA;myself with the values. As a proponent of free and open source software I am&#xA;happy to support projects I use. Thus, this got me interested in an another&#xA;fairly popular app that met all these criteria: &lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sun, 03 Sep 2023 18:14:46 +0200</lastBuildDate>
+    <atom:link href="https://macavitycode.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Soft Robotics Grippers</title>
       <link>https://macavitycode.github.io/posts/soft_robotics_simulations_and_grippers/</link>
@@ -42,13 +35,6 @@
       <pubDate>Mon, 28 Feb 2022 22:11:40 +0200</pubDate>
       <guid>https://macavitycode.github.io/posts/ackerman_simulation/</guid>
       <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as &lt;a href=&#34;https://macavitycode.github.io/posts/solar_mobil/&#34;&gt;SolarMobil&lt;/a&gt;.&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Stance Classification</title>
-      <link>https://macavitycode.github.io/posts/stance_classification/</link>
-      <pubDate>Fri, 15 Jan 2021 22:02:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/stance_classification/</guid>
-      <description>&lt;p&gt;In my second year of Bachelors in Mechatronics, I got very interested in AI.&#xA;The progress in AI has been extremely quick, and the extension of the field&#xA;to robotics is inevitable. I with a group of friends participated in a&#xA;competition outside the college&amp;rsquo;s purview, called the&#xA;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9222464/proceeding&#34;&gt;IEEE BigMM Data Challenge (2020)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As a team we were all first and second years, who with considerable effort&#xA;had managed to teach ourselves the basics of python and machine learning.&#xA;The problem statement given was to do a stance classification based on tweets&#xA;in multiple categories, with no other outside information. We came second in&#xA;the overall challenge, and IEEE graciously provided us the opportunity to share&#xA;our research work in the journal (&lt;a href=&#34;https://ieeexplore.ieee.org/document/9232641&#34;&gt;link&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

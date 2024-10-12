@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note Taking on Shashank Rajiv Moghe</title>
+    <link>https://macavitycode.github.io/tags/note-taking/</link>
+    <description>Recent content in Note Taking on Shashank Rajiv Moghe</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2024 23:17:40 +0200</lastBuildDate>
+    <atom:link href="https://macavitycode.github.io/tags/note-taking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Note Taking</title>
+      <link>https://macavitycode.github.io/posts/note_taking/</link>
+      <pubDate>Wed, 25 Sep 2024 23:17:40 +0200</pubDate>
+      <guid>https://macavitycode.github.io/posts/note_taking/</guid>
+      <description>&lt;p&gt;Having started a Masters&amp;rsquo; course recently, I found myself once again in need&#xA;of a good note taking application. As a student I&amp;rsquo;d gone through a couple of&#xA;options before -  &lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt;, using manually set up sync&#xA;across my devices - but I was looking to change somethings.&#xA;I jotted down some requirements for a note taking app, namely&#xA;that it needed to (a) work with markdown files (b) be free and open source.&#xA;I don&amp;rsquo;t mind having to pay for a piece of software I use as long as I can align&#xA;myself with the values. As a proponent of free and open source software I am&#xA;happy to support projects I use. Thus, this got me interested in an another&#xA;fairly popular app that met all these criteria: &lt;a href=&#34;https://logseq.com/&#34;&gt;Logseq&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,8 @@
 title: 'Drone Simulations'
 date: 2022-07-15T22:03:23+02:00
 featured_image: '/featuredImages/drone-simulation.png'
+tags: ['Robotics']
+featured: true
 ---
 
 During my Bachelors in Mechatronics, at an event on robotics developments in India,
@@ -35,8 +37,12 @@ This was the SITL base for our entire system, using
 This enabled me to implement livestreaming through the companion computer,
 geotaging of images, basic image segmentation, simple monocular SLAM
 ([Direct Sparse Odometry (DSO)](https://github.com/JakobEngel/dso)).
-DSO needed some modifications to work with the system we had.
+DSO needed some modifications to work with the system we had (I worked with
+[Rikin Ramachandran](https://www.linkedin.com/in/rikin-ramachandran-5992851bb/) for this).
 Once we got it working, the algorithm produced fairly noisy point clouds.
+This however was still good enough to implement a basic version of the
+A\* navigation, requiring a ToF single point LiDAR for ground detection.
+It was a ready-to-use outdoor, GPS-denied, monocular SLAM system!
 
 ![Dso Map](/images/dso-maps.png)
 

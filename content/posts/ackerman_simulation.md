@@ -2,6 +2,7 @@
 title: 'Ackermann Drive Simulation'
 date: 2022-02-28T22:11:40+02:00
 featured_image: '/featuredImages/cone-follower.png'
+tags: ['Robotics', 'Old']
 ---
 
 Note: This writeup was copied from my old website, which no is longer functional.
