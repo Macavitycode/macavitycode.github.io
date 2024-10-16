@@ -4,4 +4,5 @@ featured_image: '/greybg.jpg'
 description: "Shashank Rajiv Moghe's personal website"
 ---
 
-Welcome to my personal website. It is a work in progress.
+Welcome to my personal website.
+It is a work in progress.
