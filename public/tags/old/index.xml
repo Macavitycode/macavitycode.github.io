@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Old on Shashank Rajiv Moghe</title>
-    <link>https://macavitycode.github.io/tags/old/</link>
+    <link>https://macavitycode.com/tags/old/</link>
     <description>Recent content in Old on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 May 2022 22:22:20 +0200</lastBuildDate>
-    <atom:link href="https://macavitycode.github.io/tags/old/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://macavitycode.com/tags/old/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SolarMobil</title>
-      <link>https://macavitycode.github.io/posts/solar_mobil/</link>
+      <link>https://macavitycode.com/posts/solar_mobil/</link>
       <pubDate>Wed, 25 May 2022 22:22:20 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/solar_mobil/</guid>
+      <guid>https://macavitycode.com/posts/solar_mobil/</guid>
       <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.solarmobilmanipal./&#34;&gt;SolarMobil&lt;/a&gt; is a student project under&#xA;Manipal Institute of Technology which focuses on building and manufacturing&#xA;an solar powered electric car for &lt;a href=&#34;https://esvc.in/&#34;&gt;ESVC&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;ESVC is Asia&amp;rsquo;s biggest solar car event, Except for the motors and wheels (which&#xA;are proprietary) they build everything else from scratch.&#xA;The sheer amount of design work that goes into the project is phenomenal.&#xA;I was a member of the automation subsystem, meaning my work was focused around&#xA;getting the car to autonomously navigate through one of the challenges in the&#xA;competition.&#xA;The challenge was to navigate the car completely autonomously through a course&#xA;marked by having small orange cones on both sides.&#xA;The design limitations on it were that the coded stack needed to be cheap,&#xA;easy to use and understand and for initial setup use &lt;strong&gt;only a RGB camera&lt;/strong&gt;.&#xA;Of course, the stack needed to integrate with the rest of the car in terms of&#xA;mechanical and electronics design.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ackermann Drive Simulation</title>
-      <link>https://macavitycode.github.io/posts/ackerman_simulation/</link>
+      <link>https://macavitycode.com/posts/ackerman_simulation/</link>
       <pubDate>Mon, 28 Feb 2022 22:11:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/ackerman_simulation/</guid>
-      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as &lt;a href=&#34;https://macavitycode.github.io/posts/solar_mobil/&#34;&gt;SolarMobil&lt;/a&gt;.&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
+      <guid>https://macavitycode.com/posts/ackerman_simulation/</guid>
+      <description>&lt;p&gt;Note: This writeup was copied from my old website, which no is longer functional.&lt;/p&gt;&#xA;&lt;p&gt;The challenge is to get a cone following algorithm to be implemented using just a normal RGB camera.&#xA;The competition this was made for is the same as &lt;a href=&#34;https://macavitycode.com/posts/solar_mobil/&#34;&gt;SolarMobil&lt;/a&gt;.&#xA;I used the linearity of the relation of area occupied on screen vs. the distance of the object.&#xA;I get a representation of the distance here rather than the actual physical distance with this method.&#xA;The scikit-spatial library is a huge help as it simplifies a lot of the involved mathematics.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stance Classification</title>
-      <link>https://macavitycode.github.io/posts/stance_classification/</link>
+      <link>https://macavitycode.com/posts/stance_classification/</link>
       <pubDate>Fri, 15 Jan 2021 22:02:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/posts/stance_classification/</guid>
+      <guid>https://macavitycode.com/posts/stance_classification/</guid>
       <description>&lt;p&gt;In my second year of Bachelors in Mechatronics, I got very interested in AI.&#xA;The progress in AI has been extremely quick, and the extension of the field&#xA;to robotics is inevitable. I with a group of friends participated in a&#xA;competition outside the college&amp;rsquo;s purview, called the&#xA;&lt;a href=&#34;https://ieeexplore.ieee.org/xpl/conhome/9222464/proceeding&#34;&gt;IEEE BigMM Data Challenge (2020)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As a team we were all first and second years, who with considerable effort&#xA;had managed to teach ourselves the basics of python and machine learning.&#xA;The problem statement given was to do a stance classification based on tweets&#xA;in multiple categories, with no other outside information. We came second in&#xA;the overall challenge, and IEEE graciously provided us the opportunity to share&#xA;our research work in the journal (&lt;a href=&#34;https://ieeexplore.ieee.org/document/9232641&#34;&gt;link&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
   </channel>

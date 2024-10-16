@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Shashank Rajiv Moghe</title>
-    <link>https://macavitycode.github.io/tags/</link>
+    <link>https://macavitycode.com/tags/</link>
     <description>Recent content in Tags on Shashank Rajiv Moghe</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Sep 2024 23:17:40 +0200</lastBuildDate>
-    <atom:link href="https://macavitycode.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://macavitycode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Note Taking</title>
-      <link>https://macavitycode.github.io/tags/note-taking/</link>
+      <link>https://macavitycode.com/tags/note-taking/</link>
       <pubDate>Wed, 25 Sep 2024 23:17:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/tags/note-taking/</guid>
+      <guid>https://macavitycode.com/tags/note-taking/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
-      <link>https://macavitycode.github.io/tags/robotics/</link>
+      <link>https://macavitycode.com/tags/robotics/</link>
       <pubDate>Sun, 03 Sep 2023 18:14:46 +0200</pubDate>
-      <guid>https://macavitycode.github.io/tags/robotics/</guid>
+      <guid>https://macavitycode.com/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Old</title>
-      <link>https://macavitycode.github.io/tags/old/</link>
+      <link>https://macavitycode.com/tags/old/</link>
       <pubDate>Wed, 25 May 2022 22:22:20 +0200</pubDate>
-      <guid>https://macavitycode.github.io/tags/old/</guid>
+      <guid>https://macavitycode.com/tags/old/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
-      <link>https://macavitycode.github.io/tags/ai/</link>
+      <link>https://macavitycode.com/tags/ai/</link>
       <pubDate>Fri, 15 Jan 2021 22:02:40 +0200</pubDate>
-      <guid>https://macavitycode.github.io/tags/ai/</guid>
+      <guid>https://macavitycode.com/tags/ai/</guid>
       <description></description>
     </item>
   </channel>
